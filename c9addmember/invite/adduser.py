@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # Imports
-import urllib2, os, sys
+import c9addmember.invite.urllib2, os, sys
 from cookielib import CookieJar
 
 USER_AGENT = "/kinoshitajona/c9community/add_users/script/v0.0.4"
