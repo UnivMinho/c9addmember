@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from adduser import add_user
+import adduser.add_user
 import os, re
 
 # Create your views here.
