@@ -25,7 +25,7 @@ SECRET_KEY = 'b^^yu6f3y$nmq)b25tu_t3ghdfghdthdthdfghghkjghkiliggkt!l+)w3!%u7lym!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [os.environ['HEROKU_DOMAIN_NAME']]
+ALLOWED_HOSTS = [os.environ['HEROKU_DOMAIN_NAME'], "c9member.herokuapp.com/"]
 
 
 # Application definition
