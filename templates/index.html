@@ -3,6 +3,12 @@
         <title>
             Enter Email to receive invite
         </title>
+	    
+	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
         <center>
@@ -11,10 +17,10 @@
 		  <br/>
             <form action="/sendinvite/" method="POST">
                 {% csrf_token %}
-                <input type="text" name="email" style="width:70%;height:40px;font-size:26px;">
+                <input type="text" placeholder="insert your email" name="email" style="width:70%;height:40px;font-size:26px;">
                 <br/>
                 <br/>
-                <button type="submit" style="width:50%;height:30px;font-size:20px; background-color: green">Get an invite!</button>
+                <button type="submit" style="width:50%;height:30px;font-size:20px; class="btn btn-info">Get an invite!</button>
             </form>
         </center>
     </body>
