@@ -3,13 +3,9 @@
 
 # Imports
 import os, sys
-try:
-    from http.cookiejar import CookieJar
-except ImportError:
+
     from cookielib import CookieJar
-try:
-    import urllib.request as urllib2
-except ImportError:
+
     import urllib2
     
 USER_AGENT = "/kinoshitajona/c9community/add_users/script/v0.0.4"
