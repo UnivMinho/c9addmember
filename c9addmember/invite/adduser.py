@@ -3,7 +3,10 @@
 
 # Imports
 import os, sys
-from cookielib import CookieJar
+try:
+    from http.cookiejar import CookieJar
+except ImportError:
+    from cookielib import CookieJar
 try:
     import urllib.request as urllib2
 except ImportError:
