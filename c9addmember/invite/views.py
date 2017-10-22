@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from c9addmember.invite.adduser import add_user
+from adduser import add_user
 import os, re
 
 # Create your views here.
