@@ -3,10 +3,8 @@
 
 # Imports
 import os, sys
-
-    from cookielib import CookieJar
-
-    import urllib2
+from cookielib import CookieJar
+import urllib2
     
 USER_AGENT = "/kinoshitajona/c9community/add_users/script/v0.0.4"
 
