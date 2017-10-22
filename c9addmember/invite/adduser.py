@@ -2,9 +2,13 @@
 # coding: utf-8
 
 # Imports
-import urllib2, os, sys
+import os, sys
 from cookielib import CookieJar
-
+try:
+    import urllib.request as urllib2
+except ImportError:
+    import urllib2
+    
 USER_AGENT = "/kinoshitajona/c9community/add_users/script/v0.0.4"
 
 def add_user(ADD_USER_EMAIL):
